@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+.nav_bar{
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo{
+    width: 50%;
+}
+
+
+.sign_up_option{
+    width: 50%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    gap: 50px;
+    margin-left: 50%;
+}
+
+.lang_drop_down{
+    height: 40px;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 15%;
+    /* background: transparent; */
+}
+
+#drop_down{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+.sign_in{
+    height: 40px;
+    width: 70px;
+    border: 2px solid red;
+    border-radius: 15%;
+    display: flex;
+    background-color: red;
+    display: flex;
+}
+
+
+.button{
+    background: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+.background_image_container{
+    height: 100%;
+    width: 100%;
+}
+
+.bg_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.bluring_bg{
+    height: 119%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0,0.6);
+}
+
+
+.content{
+    width: 70%;
+    height: 50%;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.heading1{
+    color: white;
+    font-size: xx-large;
+    align-self: center;
+}
+
+.heading2{
+    color: white;
+    font-size: x-large;
+    align-self: center;
+}
+
+.para{
+    color: white;
+    font-size: x-large;   
+    align-self: center;
+}
+
+
+.email_and_get_started{
+    display: flex;
+    /* align-items: center; */
+    align-self: center;
+    /* background-color: red; */
+    height: 20%;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.email_container{
+    height: 100%;
+    width: 70%;
+}
+
+.email_add{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
+
+.get_started{
+    height: 100%;
+    width: 20%;
+    background-color: red;
+}
+
+.get_started_button{
+    color: white;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
+
+
+.card_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_text{
+    margin-left: 70px;
+}
+
+
+.video_and_image{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image_cont{
+    position: relative;
+}
+
+.video_cont{
+    position: absolute;
+    z-index: 1;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    /* margin-bottom: 50px; */
+}
+
+
+.color{
+    height: 1vh;
+    background-color: grey;
+}
+
+a{
+    color: white;
+}
+
+.questions{
+    display: flex;
+    justify-content: space-evenly;
+}
+
